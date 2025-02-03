@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News App</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- news -->
+    <div class="heading-container">
+      <h4>News Website</h4>
+      <!-- <h5>Dictionary?</h5> -->
+    </div>
+    <div class="dict-container">
+        <i class="fa-solid fa-book book-icon"></i>
+        <p>Need to use a Dictionary?? Click here -></p>
+    </div>
+    <div class="options-container"></div>
+    <div class="container"></div>
+
+    <!-- dictionary -->
+    <div class="dictionary">
+        <!-- <h1 class="dict-heading">Dictionary App</h1> -->
+
+        <!-- <audio id="sound"></audio> -->
+        <div class="cont">
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Type the word here.."
+                    id="input-word"
+                />
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="api-key.js"></script>
+    <script src="news-script.js"></script>
+    <script src="dict-script.js"></script>
+    <script src="https://kit.fontawesome.com/9ae07028d7.js" crossorigin="anonymous"></script>
+  </body>
+</html>
