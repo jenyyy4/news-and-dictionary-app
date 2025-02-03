@@ -1,5 +1,5 @@
 //API Used: http://newsapi.org/s/india-news-api
-let apiKey = "926a09b845414911a0e922631f2b5d1d";
+// let apiKey = "926a09b845414911a0e922631f2b5d1d";
 const container = document.querySelector(".container");
 const optionsContainer = document.querySelector(".options-container");
 const country = "us";
